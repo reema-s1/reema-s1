@@ -4,14 +4,14 @@
 
 **applied ML · LLM reliability · distributed systems**
 
-<!-- add your contact badges here, e.g.
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/email-f4a7b9?style=flat&logo=gmail&logoColor=white" /></a>
-<a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-a7c7e7?style=flat&logo=linkedin&logoColor=white" /></a>
--->
+<a href="mailto:reemasarks@gmail.com"><img src="https://img.shields.io/badge/reemasarks@gmail.com-f4a7b9?style=flat&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/reema-sarkar-0601a02b8/"><img src="https://img.shields.io/badge/LinkedIn-a7c7e7?style=flat&logo=linkedin&logoColor=white" /></a>
 
 </div>
 
 ### about me
+
+CS undergrad at PES University, Bangalore (class of 2027).
 
 I learn things by building them. Lately that means picking a paper I found interesting
 and rewriting it from scratch until my numbers match theirs, or until I understand why
