@@ -13,30 +13,19 @@
 
 ### about me
 
-I like taking research papers and turning them into running, tested code, on both
-the ML side and the systems side. On the ML side, most of what I build is about one
-question: **can we trust what the model says?** That covers hallucination detection,
-retrieval that checks itself, and evaluation harnesses that report the honest number.
-On the systems side, I like building the plumbing underneath: replication, consistency,
-failure handling, and learned components inside real databases.
+I learn things by building them. Lately that means picking a paper I found interesting
+and rewriting it from scratch until my numbers match theirs, or until I understand why
+they don't. I got into distributed systems the same way: I wanted to see what actually
+happens when a node dies halfway through a write, so I built a key-value store and
+started breaking it.
 
-### things i've built
+### projects
 
-| project | what it is | highlights |
-|---|---|---|
-| **[selfcheckgpt-hallucination-detection](https://github.com/reema-s1/selfcheckgpt-hallucination-detection)** | Reproduction of *SelfCheckGPT* (Manakul et al., 2023): zero-resource, black-box hallucination detection from sample consistency | matches the paper within **0.05 pts** on all reported metrics (238 passages, 1,908 sentences) · batched DeBERTa NLI scoring · resumable eval · 17 tests + CI |
-| **[corrective-rag](https://github.com/reema-s1/corrective-rag)** | From-scratch *Corrective RAG* (Yan et al., 2024): an LLM judge grades each retrieved doc, then the pipeline keeps it, refines it, or falls back to web search | **85% vs 40%** correct-and-grounded over plain RAG · **95%** routing accuracy · cited answers · FastAPI service · JSONL run logs |
-| **[steerdb-bao](https://github.com/reema-s1/steerdb-bao)** | *Bao*-style learned query optimizer: a PyTorch Tree-CNN over Postgres `EXPLAIN` plans picks a hint set for each query | uncertainty-aware (Thompson sampling) + confidence safety guard · cross-validated ablations · Dockerized |
-| **[quorum](https://github.com/reema-s1/quorum)** | Distributed key-value store, grown from a single-node engine with a write-ahead log into a multi-node cluster over TCP | consistent hashing · N-way replication · tunable `ONE` / `QUORUM` / `ALL` consistency · heartbeat failure detection · hinted handoff · Merkle-tree anti-entropy |
-| **[sentiment-finetune](https://github.com/reema-s1/sentiment-finetune)** | Fine-tuned DistilBERT vs a TF-IDF + logistic regression baseline | the baseline won on 2k examples, so I did error analysis and diagnosed the overfitting |
-
-### what i care about
-
-- **papers → code.** reading a paper, reproducing it, and checking my numbers against theirs
-- **grounding & factual consistency.** hallucination detection, citation-checked RAG, LLM-as-judge evals
-- **evaluation.** AUC-PR, correlation, calibrated uncertainty, baselines, and caveats stated upfront
-- **distributed systems.** replication, quorum consistency, failure detection, and replica repair
-- **production-shaped ML.** modular Python, tests that don't need model downloads, Docker, REST APIs
+- **[selfcheckgpt-hallucination-detection](https://github.com/reema-s1/selfcheckgpt-hallucination-detection)**: catching LLM hallucinations without access to the model's internals
+- **[corrective-rag](https://github.com/reema-s1/corrective-rag)**: RAG that checks its own retrieval before answering
+- **[steerdb-bao](https://github.com/reema-s1/steerdb-bao)**: a learned query optimizer for Postgres
+- **[quorum](https://github.com/reema-s1/quorum)**: a distributed key-value store with replication and quorum reads/writes
+- **[sentiment-finetune](https://github.com/reema-s1/sentiment-finetune)**: fine-tuned DistilBERT vs a classic baseline (the baseline won)
 
 ### stack
 
