@@ -13,9 +13,9 @@
 
 CS undergrad at PES University, Bangalore (class of 2027).
 
-I learn things by building them. Lately that means picking a paper I found interesting
-and rewriting it from scratch until my numbers match theirs, or until I understand why
-they don't. I got into distributed systems the same way: I wanted to see what actually
+I learn things by building them. Lately that means reading ML papers, mostly on LLM
+hallucinations and retrieval, and reimplementing them from scratch until my eval
+numbers match theirs, or until I understand why they don't. I got into distributed systems the same way: I wanted to see what actually
 happens when a node dies halfway through a write, so I built a key-value store and
 started breaking it.
 
