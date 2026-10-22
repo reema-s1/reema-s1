@@ -4,6 +4,7 @@
 
 **AI agents for operations · observability · data platforms**
 
+<a href="https://reema-s1.netlify.app/"><img src="https://img.shields.io/badge/blog-reema--s1.netlify.app-c3b1e1?style=flat&logo=netlify&logoColor=white" /></a>
 <a href="mailto:reemasarks@gmail.com"><img src="https://img.shields.io/badge/reemasarks@gmail.com-f4a7b9?style=flat&logo=gmail&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/reema-sarkar-0601a02b8/"><img src="https://img.shields.io/badge/LinkedIn-a7c7e7?style=flat&logo=linkedin&logoColor=white" /></a>
 
@@ -19,6 +20,8 @@ and the dashboards that show whether the platform (and the agent) is actually he
 
 I care about AI tools I can trust. My agents run on read-only tools, ask a human before they change anything,
 and get scored against ground truth and a non-AI baseline. I build with Claude Code, and I review what it writes before it ships.
+
+I also write about what I learn while building: one concept at a time, in plain English, at **[reema-s1.netlify.app](https://reema-s1.netlify.app/)**.
 
 ### projects
 
